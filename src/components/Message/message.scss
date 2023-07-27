@@ -1,0 +1,46 @@
+.message-container {
+  display: flex;
+  gap: 8px;
+  width: 80%;
+  justify-content: flex-start; 
+}
+
+.message-info {
+  padding: 8px 42px 18px 12px;
+  position: relative;
+
+  .time {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 12px;
+  }
+}
+
+.message-text {
+  margin: 18px 0;
+  max-width: 70%; 
+  word-wrap: break-word; 
+}
+
+.friend-message {
+  border-radius: 4px;
+  background: #F3F3F3;
+  margin-left: auto; 
+}
+
+.my-message {
+  border-radius: 4px;
+  background: rgba(64, 126, 201, 0.16);
+  margin-right: auto; 
+}
+
+.my-position {
+  margin-left: 20%;
+  justify-content: flex-end; 
+}
+
+.friend-position {
+  margin-right: 20%;
+  justify-content: flex-start;
+}

@@ -1,3 +1,6 @@
-export interface IPage{
+export interface IPage {
     title?: string
 }
+
+
+

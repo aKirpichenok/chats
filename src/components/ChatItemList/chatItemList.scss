@@ -1,0 +1,8 @@
+.chat-item-list {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 31%
+}

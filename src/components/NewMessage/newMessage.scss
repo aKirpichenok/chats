@@ -1,0 +1,15 @@
+.new-message {
+  border-radius: 4px;
+  background:  rgba(64, 126, 201, 0.08);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 8px 12px;
+    color:  #407EC9;
+  }
+}
