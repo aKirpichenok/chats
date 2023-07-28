@@ -1,5 +1,8 @@
 # Приложения Chats
 
+
+## [ссылка](https://akirpichenok.github.io/chats/)
+
 - В левой части список чатов
 - В правой части открывается чат с сообщениями
 
@@ -28,4 +31,4 @@ utils - общие функции
 - Перейти на React 18
 - Добавить Unit, e2e тесты
 
-[screenshot.png]
+![Screenshot](screenshot.png)
