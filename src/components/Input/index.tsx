@@ -2,6 +2,7 @@ import { ChangeEventHandler, useRef, useState } from "react"
 import { EditableTextArea } from "./EditableTextArea";
 import './input.scss'
 import { PickFiles, SendButton } from "../../utils/svgIcons";
+import { Button } from "../Button/Button";
 
 export const Input =() => {
   const [message,setMessage] = useState('')
@@ -14,14 +15,17 @@ export const Input =() => {
     setMessage(text);
   };
 
+  const handleClick= () =>{
+    console.log(message)
+    setMessage('')
+  }
+
   return (
     <div className="input-wrapper">
-      <div>
         <EditableTextArea value={message} onChange={handleTextChange} placeholder="Type message"/>
-      </div>
       <div className="input-buttons">
         <PickFiles onChange={handlePickFile}/>
-        <button><SendButton/></button>
+        <Button onClick={handleClick}><SendButton/></Button>
       </div>
     </div>
   );

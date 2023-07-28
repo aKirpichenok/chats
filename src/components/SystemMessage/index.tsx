@@ -1,9 +1,11 @@
+import dayjs from 'dayjs'
 import './systemMessage.scss'
 
-export const SystemMessage = ({text}:{text:string}) => {
+export const SystemMessage = ({time}:{time:string}) => {
 return (
   <div className="system-message">
-    <span>{text}</span>
+    {/* <span>{dayjs(time).format('DD.MM.YYYY')}</span> */}
+    <span>{time}</span>
   </div>
 )
 }
